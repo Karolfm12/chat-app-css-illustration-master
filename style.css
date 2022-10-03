@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+}
+body {
+  width: 1440px;
+
+  background-color: lightgray;
+  font-size: 1rem;
+}
+
+.shape {
+  position: absolute;
+  background: linear-gradient(180deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  height: 800px;
+  width: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  margin-left: -150px;
+  z-index: 0;
+}
+
+main {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  z-index: 1;
+}
+
+.phone {
+  display: block;
+  background-color: #f3f3f3;
+  border-radius: 20px;
+  /* padding: 0 1em 1em; */
+  /* margin-top: 0px; */
+  /* border: 10px solid red; */
+}
+
+.phone-border {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 10px;
+  width: 400px;
+}
+
+.phone-header {
+  background: linear-gradient(180deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 20px 20px 20px 20px;
+  line-height: 10px;
+}
+
+h3 {
+  margin-top: 40px;
+}
+
+.ear {
+  margin: -20px auto;
+  width: 70%;
+  height: 20px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.p-message {
+  display: inline-block;
+  background-color: rgb(222, 222, 222);
+  margin: 10px 10px;
+  padding: 10px;
+  color: hsl(276, 55%, 52%);
+  width: 50%;
+  border-radius: 10px;
+}
+
+.p-my-message {
+  margin: 10px 10px 10px 40%;
+  padding: 10px;
+  background-color: white;
+  float: right;
+  border-radius: 10px;
+}
+
+img {
+  height: 80px;
+  float: right;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.choice1,
+.choice2 {
+  background: linear-gradient(90deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  color: white;
+  display: flex;
+  align-items: center;
+  /* flex-grow: 1; */
+  width: 60%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border-bottom-left-radius: 5px;
+}
+
+p {
+  margin-left: 10px;
+}
+
+.price {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.text {
+  margin: 0 10%;
+  width: 50%;
+}
