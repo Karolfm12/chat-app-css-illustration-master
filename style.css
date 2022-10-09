@@ -5,7 +5,7 @@
 }
 body {
   width: 1440px;
-
+  height: 100vh;
   background-color: lightgray;
   font-size: 16px;
   font-family: "Rubik", sans-serif;
@@ -15,7 +15,7 @@ body {
   position: absolute;
   background: linear-gradient(180deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
   height: 800px;
-  width: 650px;
+  width: 40%;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   margin-left: -150px;
@@ -27,8 +27,8 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  padding: 0 300px 0 400px;
+  /* padding: 0px 300px 0px 400px; */
+  margin: 50px 300px 20px 300px;
   z-index: 1;
 }
 
@@ -175,10 +175,25 @@ h1 {
   line-height: 100px;
 }
 
-@media only screen and (max-width: 1695px) {
+@media only screen and (max-width: 1277px) {
   main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+  }
+  h1 {
+    word-wrap: break-word;
+  }
+
+  h1,
+  .text {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .shape {
+    width: 70%;
   }
 }
